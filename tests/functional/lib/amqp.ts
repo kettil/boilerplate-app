@@ -1,3 +1,9 @@
+/**
+ * Template file for AMQP
+ *
+ * If AMQP is not used, the file can be deleted.
+ */
+
 /* tslint:disable:no-implicit-dependencies */
 import amqp from 'amqplib';
 
@@ -14,7 +20,7 @@ if (error) {
   throw error;
 }
 
-export const amqpUrl = `${env.AMQP_SCHEMA}://${env.AMQP_USER}:${env.AMQP_PASSWORD}@${env.AMQP_HOST}:${env.AMQP_PORT}`;
+export const amqpUrl = env.AMQP_URL;
 
 /**
  *
