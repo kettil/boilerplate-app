@@ -1,4 +1,4 @@
-# Boilerplate - Worker [BETA]
+# Boilerplate - Application [BETA]
 
 ## Table of Contents
 
