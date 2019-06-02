@@ -27,7 +27,7 @@
 
 The application is built and executed.
 
-The following commands is available:
+The following commands are available:
 
 - `npm run start`
 
