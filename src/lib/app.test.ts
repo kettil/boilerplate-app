@@ -1,6 +1,6 @@
-import app from '../../src/lib/app';
+import app from './app';
 
-import { envType } from '../../src/lib/types';
+import { envType } from './types';
 
 const log: any = {
   debug: () => true,
@@ -13,11 +13,11 @@ const log: any = {
 /**
  *
  */
-describe('Integration Testing', () => {
+describe('Check the app() function', () => {
   /**
    *
    */
-  test('it should be ...', async () => {
+  test('it should be faultless when app() is called', async () => {
     const env: envType = {
       LOG_NAME: 'info',
       LOG_LEVEL: 'info',

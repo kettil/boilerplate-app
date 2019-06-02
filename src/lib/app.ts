@@ -7,8 +7,8 @@ import { envType } from './types';
  * @param log
  * @param env
  */
-export const worker = async (log: bunyan, env: envType) => {
-  // worker code
+export const app = async (log: bunyan, env: envType) => {
+  // app code
 
   log.info({ env }, 'ENV DATA');
 };
@@ -16,4 +16,4 @@ export const worker = async (log: bunyan, env: envType) => {
 /**
  *
  */
-export default worker;
+export default app;

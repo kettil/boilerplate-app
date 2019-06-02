@@ -1,7 +1,7 @@
 import bunyan from 'bunyan';
 
+import app from './lib/app';
 import { envSchema } from './lib/schema';
-import worker from './lib/worker';
 
 import { envType } from './lib/types';
 
@@ -20,5 +20,5 @@ try {
     serializers: bunyan.stdSerializers,
   });
 
-  await worker(log, env);
+  await app(log, env);
 })();
