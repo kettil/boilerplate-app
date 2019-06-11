@@ -1,4 +1,4 @@
-# Boilerplate - Application [BETA]
+# Boilerplate - Application [Work in progress]
 
 ## Table of Contents
 
