@@ -34,9 +34,6 @@
     "lint:ci": "tslint --project ./tsconfig.json --config ./tslint.json --format codeFrame",
     "prettier": "prettier --config './.prettierrc' --write '.huskyrc' '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
     "prettier:ci": "prettier --config './.prettierrc' --list-different '.huskyrc' '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
-    "docs": "npm run docs:clean && npm run docs:generate",
-    "docs:clean": "rm -rf ./docs",
-    "docs:generate": "typedoc --options './typedoc.json' './src'",
     "docker:image:build": "docker image build -t $(basename $(pwd)):tmp .",
     "docker:image:clear": "docker image rm $(basename $(pwd)):tmp",
     "docker:compose:start": "docker-compose up -d",
@@ -72,7 +69,6 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-immutable": "^5.5.2",
     "tslint-react": "^4.0.0",
-    "typedoc": "^0.14.0",
     "typescript": "^3.4.4"
   },
   "dependencies": {
