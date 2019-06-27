@@ -72,7 +72,7 @@
     "typescript": "^3.4.4"
   },
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": "^15.1.0",
     "bunyan": "^1.8.12"
   }
 }
